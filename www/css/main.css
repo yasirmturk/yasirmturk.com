@@ -31,15 +31,16 @@ header {
   text-align: center;
   margin-top: 25px;
   line-height: 0;
-  padding: 15px;
+  padding: 4px;
 }
 
 .logo .center-circle {
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
   background: #ff4e3d;
   border-radius: 50%;
   display: inline-block;
+  overflow: hidden;
 }
 .menu {
   margin-top: 40px;
@@ -219,12 +220,6 @@ span.menu-item-name:before {
   width: 100%;
   position: relative;
   z-index: 3;
-}
-
-@media (max-width: 767.98px) {
-  .hero-section {
-    background-position: right -80px center;
-  }
 }
 
 .section-hero-content {
@@ -1067,7 +1062,7 @@ footer p {
   }
   .menu {
     margin: 0;
-    margin-top: 12px;
+    margin-top: -6px;
     padding: 15px;
   }
 
@@ -1089,6 +1084,11 @@ footer p {
     top: 150%;
     transform: translate(-70%, -50%);
   }
+
+  .hero-section {
+    background-position: right -80px center;
+  }
+
   .hero-section h1 {
     font-size: 26px;
     line-height: 36px;
@@ -1101,6 +1101,7 @@ footer p {
 
   .hero-section h4 {
     line-height: 22px;
+    font-size: 8px;
   }
 
   .hero-section a.theme-btn {

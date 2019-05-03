@@ -39,7 +39,7 @@
       Yasir M Türk - Lead Engineer, iOS Developer &amp; Mobile architect from
       Pakistan a.k.a the smart engineer
     </title>
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -58,7 +58,7 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900|Titillium+Web:200,300,400,600,700"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.css?v=1.1" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -76,7 +76,13 @@
   <body>
     <header>
       <div class="logo">
-        <div class="center-circle"></div>
+        <div class="center-circle">
+          <img
+            src="https://en.gravatar.com/userimage/6934069/d93c60d84698d4bf451541a0d2feeaa4.jpg"
+            alt="gravatar-yasirmturk"
+            width="100%"
+          />
+        </div>
       </div>
 
       <div class="menu">
@@ -134,9 +140,34 @@
           <div class="block">
             <h4 class="sec-font">I CREATE <span class="typed"></span></h4>
           </div>
-          <a href="#" class="sec-font btn theme-btn explore" data-link=".about"
-            >Start exploring<span class="lnr lnr-arrow-right"></span
-          ></a>
+          <div class="d-flex flex-wrap justify-content-between align-items-end">
+            <a
+              href="#"
+              class="sec-font btn theme-btn explore"
+              data-link=".about"
+              >Start exploring<span class="lnr lnr-arrow-right"></span
+            ></a>
+            <!-- Place this tag where you want the button to render. -->
+            <div style="margin-top: 15px;">
+              <a
+                class="github-button"
+                href="https://github.com/yasirmturk"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Follow @yasirmturk on GitHub"
+                >Follow @me</a
+              >
+            </div>
+            <!-- Place this tag where you want the button to render. -->
+            <a
+              class="github-button"
+              href="https://github.com/yasirmturk/yasirmturk.com"
+              data-size="large"
+              data-show-count="true"
+              aria-label="Star yasirmturk/yasirmturk.com on GitHub"
+              >Star</a
+            >
+          </div>
         </div>
       </div>
       <section class="about">
@@ -568,7 +599,8 @@
                     <iframe
                       class="embed-responsive-item"
                       allowscriptaccess="always"
-                      allow="autoplay"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
                       src=""
                     ></iframe>
                   </div>
@@ -800,7 +832,7 @@
                     <input
                       type="hidden"
                       name="_next"
-                      value="https://www.yasirmturk.com/uat/thanks.html"
+                      value="https://www.yasirmturk.com/thanks.html"
                     />
                     <input
                       type="hidden"
@@ -846,9 +878,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/jqcloud2@2.0.3/dist/jqcloud.min.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/particles.min.js"></script>
-    <script src="js/skills.js?v=1"></script>
-    <script src="js/main.js?v=1"></script>
+    <script src="js/skills.js?v=1.1"></script>
+    <script src="js/main.js?v=1.1"></script>
   </body>
 </html>

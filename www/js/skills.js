@@ -42,7 +42,6 @@ var words = skills.map(function(s) {
 $(function() {
   $("#my-skills").jQCloud(words, {
     shape: "rectangular",
-    removeOverflowing: false,
     autoResize: true,
     colors: [
       "#ffffcc",
@@ -59,57 +58,3 @@ $(function() {
     delay: 5
   });
 });
-// https://www.jasondavies.com/wordcloud/
-// https://github.com/jasondavies/d3-cloud
-// var cloud = d3.layout
-//   .cloud()
-//   .words(skills)
-//   .padding(5)
-//   //   .rotate(function() {
-//   //     return ~~(Math.random() * 2) * 45;
-//   //   })
-//   .fontSize(function(d) {
-//     return d.size / 2;
-//   })
-//   .on("end", draw);
-
-// cloud.start();
-
-// function draw(words) {
-//   var elem = d3.select("#my-skills");
-//   var size = elem.node().getBoundingClientRect();
-//   elem
-//     .append("svg")
-//     .attr("width", size.width)
-//     .attr("height", size.height)
-//     .style("position", "absolute")
-//     .style("top", 0)
-//     .style("left", 0)
-//     .append("g")
-//     .attr(
-//       "transform",
-//       "translate(" + size.width / 1.9 + "," + size.height / 2 + ") scale(1.8)"
-//     )
-//     .selectAll("text")
-//     .data(words)
-//     .enter()
-//     .append("text")
-//     .style("font-size", function(d) {
-//       return d.size + "px";
-//     })
-//     .attr("text-anchor", "middle")
-//     .attr("transform", function(d) {
-//       return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-//     })
-//     .attr("fill", function() {
-//       return (
-//         "#ff" +
-//         Math.floor((Math.random() * Math.pow(2, 24)) ^ 0xffff)
-//           .toString(16)
-//           .substr(-4)
-//       );
-//     })
-//     .text(function(d) {
-//       return "#" + d.text;
-//     });
-// }
