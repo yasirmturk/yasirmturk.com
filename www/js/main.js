@@ -28,7 +28,7 @@ $(document).ready(function() {
 
   // Go Down Button
   $(".go-down").on("click", function() {
-    $(".body, html").animate(
+    $("html, body").animate(
       {
         scrollTop: $(".about").offset().top
       },
@@ -58,7 +58,7 @@ $(document).ready(function() {
   $(".explore").on("click", function(e) {
     e.preventDefault();
 
-    $(".body, html").animate(
+    $("html, body").animate(
       {
         scrollTop: $($(this).data("link")).offset().top + 80
       },
