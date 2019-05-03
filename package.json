@@ -1,7 +1,7 @@
 {
   "name": "yasirmturk",
   "version": "1.0.0",
-  "description": "Yasir M Turk - the smart engineer",
+  "description": "Yasir M Turk - the smart engineer. Source code for my personal website",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -12,7 +12,10 @@
     "web",
     "nodejs",
     "swift",
-    "objective-c"
+    "objective-c",
+    "HTML",
+    "CSS",
+    "bootstrap"
   ],
   "author": "Yasir M Turk",
   "license": "MIT",
