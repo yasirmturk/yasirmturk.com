@@ -20,7 +20,7 @@
   "author": "Yasir M Turk",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {}
 }
